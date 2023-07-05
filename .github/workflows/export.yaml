@@ -24,4 +24,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: jlc
-          path: *jlc.csv
+          path: "samd21pad*jlc.csv"
