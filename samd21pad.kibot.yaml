@@ -151,7 +151,7 @@ outputs:
     type: bom
     options:
       output: '%f_%i_jlc.%x'
-      exclude_filter: 'only_jlc_parts'
+        # exclude_filter: 'only_jlc_parts'
       ref_separator: ','
       group_fields: ['Value', 'Footprint', 'LCSC Part Number']
       columns:
