@@ -30,8 +30,6 @@ filters:
       - column: 'Ref'
         regex: '^FID'
       - column: 'Part'
-        regex: '^mount.*hole'
-      - column: 'Part'
         regex: 'solder.*bridge'
       - column: 'Part'
         regex: 'solder.*jump'
@@ -39,8 +37,6 @@ filters:
         regex: 'test.*point'
       - column: 'FP'
         regex: 'test.*point'
-      - column: 'FP'
-        regex: '^mount.*hole'
       - column: 'FP'
         regex: 'fiducial'
 
@@ -151,7 +147,7 @@ outputs:
     type: bom
     options:
       output: '%f_%i_jlc.%x'
-        # exclude_filter: 'only_jlc_parts'
+      exclude_filter: 'only_jlc_parts'
       ref_separator: ','
       group_fields: ['Value', 'Footprint', 'LCSC Part Number']
       columns:
