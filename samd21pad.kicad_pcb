@@ -2711,7 +2711,7 @@
     (property "ki_description" "USB 2.0-only Type-C Receptacle connector")
     (property "ki_keywords" "usb universal serial bus type-C USB2.0")
     (path "/3860a063-a5b1-427d-be7c-b14226153eac")
-    (attr through_hole)
+    (attr smd)
     (fp_text reference "J1" (at 0 5.35) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fdf87848-2356-4e87-8e6d-a2e9f5822c04)
